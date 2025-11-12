@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Todo List HS</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Organize suas tarefas e faça o que realmente importa</h1>
+            <nav>
+                <a class="important" href="#important">Fazer o quanto antes</a>
+                <a class="schedule" href="#schedule">Agendar</a>
+                <a class="share" href="#share">Delegar</a>
+                <a class="remove" href="#remove">Terefas para repensar</a>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+        <section id="grid">
+            <article id="important" class="task-area">
+                <h3>Fazer o quanto antes</h3>
+                <form id="form-now">
+                    <input type="text" id="task-now" placeholder="Adicione uma tarefa">
+                    <button type="submit" id="button-now">+</button>
+                </form>
+                <ol id="list-now">
+                    <!-- js deve colocar as tarefas nesta lista-->
+                </ol>
+            </article>
+            <article id="schedule" class="task-area">
+                <h3>Agendar</h3>
+                <form id="form-schedule">
+                    <input type="text" id="task-schedule" placeholder="Adicione uma tarefa">
+                    <button type="submit" id="button-schedule">+</button>
+                </form>
+                <ol id="list-schedule">
+                    <!-- js deve colocar as tarefas nesta lista-->
+                </ol>
+            </article>
+            <article id="share" class="task-area blue">
+                <h3>Delegar</h3>
+                <form id="form-not-urgent">
+                    <input type="text" id="task-not-urgent" placeholder="Adicione uma tarefa">
+                    <button type="submit" id="not-urgent-button">+</button>
+                </form>
+                <ol id="list-not-urgent">
+                    <!-- js deve colocar as tarefas nesta lista-->
+                </ol>
+            </article>
+            <article id="remove" class="task-area">
+                <h3>Tarefas para repensar</h3>
+                <form id="form-not-important">
+                    <input type="text" id="task-not-important" placeholder="Adicione uma tarefa">
+                    <button type="submit" id="not-important-button">+</button>
+                </form>
+                <ol id="list-not-important">
+                    <!-- js deve colocar as tarefas nesta lista-->
+                </ol>
+            </article>
+            <script src="home.js"></script>
+        </section>
+    </main>
+</body>
+</html>
