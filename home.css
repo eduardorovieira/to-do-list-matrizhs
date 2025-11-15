@@ -118,7 +118,7 @@ form > input {
 }
 form > button {
     width: 10%;
-    height: 50px;
+    height: 40px;
     border-radius: 50px;
     border: none;
     background-color: rgba(255, 255, 255, 0.599);
@@ -130,9 +130,7 @@ form > button:hover {
 form > button:active {
     transform: scale(0.98);
 }
-form > button {
-    font-size: 2em;
-}
+
 ol {
     padding: 0;
     width: 95%;
@@ -216,30 +214,6 @@ li button:hover {
         flex-direction: column;
         overflow-y: auto;
     }
-/*implementação futura
-    .task-area {
-        height: 65vh;
-        min-width: 90vw;
-        margin-bottom: 1em;
-        margin-left: 0.6em;
-    }
-
-    .header-scrolled {
-        padding-bottom: 0px;
-    }
-
-    .header-scrolled h1 {
-        font-size: 1.5em;
-        padding: 0.25em;
-    }
-
-    .header-scrolled nav {
-        max-height: 0;
-        overflow: hidden;
-        opacity: 0;
-        transition: all 0.3s ease;
-    }
-*/
 }
 @media screen and (min-width: 651px) and (max-width:1023px) {
     nav {
