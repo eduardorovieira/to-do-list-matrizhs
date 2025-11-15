@@ -25,6 +25,8 @@ A matriz divide as tarefas em quatro quadrantes, cada um representado por uma co
 
 * **Design Responsivo (Mobile First):** O layout é prioritariamente otimizado para dispositivos móveis.
 * **Manipulação de DOM com Vanilla JS:** Adição, exclusão e marcação de tarefas concluídas.
+* **Drag and Drop:** No PC é possível arrastar as tarefas de uma lista para a outra.
+* **localStorage:** As tarefas ficam salvas no PC, então mesmo que o navegador seja reiniciado, as tarefas continuam salvas até que o usuário delete manualmente.
 
 ---
 
